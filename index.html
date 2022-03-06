@@ -1,28 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Doom Fire</title>
-   <link rel="stylesheet" href="style.css">
+   <style>
+      * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+      }
+
+      body,
+      html {
+         height: 100%;
+         background-color: #330033;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         flex-direction: column;
+      }
+
+      a{
+         color: white;
+      }
+
+      h1{
+         color: white;
+         margin-bottom: 20px;
+      }
+   </style>
 </head>
+
 <body>
 
-   <h1>Doom Fire Effect</h1>
-   <div id="fireCanvas"> </div>
-   
-   <div>
-      <button onclick="decreaseFireSource()"> Decrease </button>
-      <button onclick="destroyFireSource()">Min Fire</button>
-      <input type="text" name="fireIntensity" id="fireIntensity" readonly>
-      <button onclick="createFireSource()">Max Fire</button>
-      <button onclick="increaseFireSource()">Increase</button>
-   </div>
-   
-   <div>
-      <button  onclick="toggleDebugMode()">Toggle Debug Mode</button>
-   </div>
-   <script src="script.js"></script>
+   <h1>Doom Fire implementations</h1>
+
+   <a href="1st-implementation/index.html">1st Implementation</a>
+   <a href="jsMatrix/index.html">Implementation with js Matrix</a>
+
 </body>
+
 </html>

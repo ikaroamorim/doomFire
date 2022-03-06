@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Doom Fire</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <h1>Doom Fire Effect</h1>
+   <div id="fireCanvas"> </div>
+   
+   <div>
+      <button onclick="decreaseFireSource()"> Decrease </button>
+      <button onclick="destroyFireSource()">Min Fire</button>
+      <input type="text" name="fireIntensity" id="fireIntensity" readonly>
+      <button onclick="createFireSource()">Max Fire</button>
+      <button onclick="increaseFireSource()">Increase</button>
+   </div>
+   
+   <div>
+      <button  onclick="toggleDebugMode()">Toggle Debug Mode</button>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body, html{
+   height: 100%;
+   background-color: #330033;
+}
+
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+h1{
+   font-size: 35px;
+   color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#fireCanvas{ 
+   margin: 20px;
+}
+
+table{
+   margin: 0 auto;
+   border-collapse: collapse;
+   border: 1px solid white;
+}
+
+td{
+   width: 32px;
+   height: 32px;
+   border: 1px solid white;
+   text-align: center;
+   vertical-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10px;
+   position: relative;
+   font-weight: bold;
+   color: white;
+}
+
+
+.pixel-index {
+   font-size: 10px;
+   display: inline-block;
+   position: absolute;
+   top: 1px;
+   right: 1px;
+   color: white;
+}
+
+td.pixel{
+   width: 4px;
+   height: 4px;
+   border: 0;
+}
+
+button{
+   color: white;
+   background-color: #520452;
+   padding: 5px;
+   border-radius: 15px;
+   border: 1px solid white;
+   margin: 5px 3px;
+   transition: background-color 0.4s;
+   text-align: center;
+}
+
+input{
+   color: white;
+   background-color: #520452;
+   padding: 5px;
+   border-radius: 15px;
+   border: 1px solid white;
+   margin: 5px 3px;
+   transition: background-color 0.4s;
+   text-align: center;
+   width: 60px;
+   outline: 0; 
+}
+
+button:hover{
+   background-color: #cf7799;
+   cursor: pointer;
+}
